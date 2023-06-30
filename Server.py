@@ -2,8 +2,8 @@ import socket
 import threading
 
 # Данные соединения
-host = '172.20.10.4'  # "Вводим наш IP" - запускаем внутри hosta
-port = 55102
+host = '213.226.172.72'  # "Вводим наш IP" - запускаем внутри hosta
+port = 2525
 
 # Запуск сервера
 server = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # создаем socket
