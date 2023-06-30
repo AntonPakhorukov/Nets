@@ -4,7 +4,7 @@ import threading
 nickname = input("Choose your nickname: ") # Запрос на ввод nickname
 # Подключение к серверу
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # создаем сокет Ipv4 и TCP
-client.connect(("213.226.172.72", 2525)) # Коннектимся к адресу сервера
+client.connect(("172.20.10.4", 55555)) # Коннектимся к адресу сервера
 # Слушать сервер и отправлять сообщения
 def receive(): # функция, с помощью которой пробуем посылать/получать сообщения на севрер
     while True:
